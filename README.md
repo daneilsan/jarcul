@@ -50,6 +50,27 @@ List<ComparisonRowResult> results = rowComparator.compare(memoryTableDataSource,
 
 For advanced usage, look at the FieldSetup implementations constructor overloads and the FieldComparator implementations found at jarcul.comparator
 
+**Add as Maven dependency**
+
+First edit the pom.xml of your project and add the following repository
+
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+Then add a new dependency
+
+	<dependency>
+	    <groupId>com.github.daneilsan</groupId>
+	    <artifactId>jarcul</artifactId>
+	    <version>v1.2</version>
+	</dependency>
+
+To use other dependency manager, refer to [this site](https://jitpack.io/#daneilsan/jarcul)
+
 **How to build**
 
 Requirements
